@@ -18,7 +18,7 @@ class Program
         int cost = (smallCarpets * perSmall) + (largeCarpets*perLarge);
         Console.WriteLine($"Cost: {cost}$");
         double taxi = cost * 0.06;
-        Console.WriteLine($"Tax: {taxi}");
+        Console.WriteLine($"Tax: {taxi}$");
         Console.WriteLine("===============================");
         Console.WriteLine($"Total estimate: {cost + taxi}");
         Console.WriteLine("This estimate is valid for 30 days");
